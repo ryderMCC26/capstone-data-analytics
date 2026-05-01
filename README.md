@@ -5,24 +5,29 @@ This capstone project analyzes transportation inequality in Maricopa County, Ari
 
 The project combines data analysis, statistical modeling, and dashboard visualization to explore whether lower-income areas or areas with limited access to vehicles experience longer commute times. Results are presented through both regression analysis and an interactive Power BI dashboard.
 
+
+
 Technologies Used:
 Python (pandas) – Data cleaning and transformation
+
 Microsoft Excel – Regression analysis
+
 Power BI – Dashboard visualization
+
 PolicyMap – Data source (ZIP code-level socioeconomic data)
+
 GitHub – Version control and project documentation
 
 How to Reproduce the Analysis
+
 Download Data
+
 Obtain datasets from PolicyMap:
-Average Travel Time to Work
-Median Household Income
-Households with No Vehicle Available
-Total Population
-Run Data Cleaning Script
-Navigate to the scripts/ folder
+
+Average Travel Time to Work - Median Household Income - Households with No Vehicle Available - Total Population - Run Data Cleaning Script - Navigate to the scripts/ folder
+
 Run: python clean_policymap_data.py
-This will generate a cleaned dataset: cleaned_transportation_capstone_data.csv
+ This will generate a cleaned dataset: cleaned_transportation_capstone_data.csv
 
 
 There is a excel file with the Regression Analysis labeled : Data_Regression
